@@ -18,4 +18,9 @@ This repository presents a simple example of a 2D CNN use for classification. We
 	jupyter lab
 	```
 
+## The tutorial
+
+Read the instruction in the notebook `keras_exercise.ipynb`. You can find a solution in `keras_solution.ipynb`.
+
+Tensorboard is not part of the tutorial yet.
 
