@@ -6,7 +6,7 @@ This repository presents a simple example of a 2D CNN use for classification. We
 
 1. Clone the repository:
 	```sh
-	git@github.com:nperraud/keras_tutorial.git
+	git clone https://github.com/nperraud/keras_tutorial.git
 	cd keras_tutorial
 	```
 2. Install the requirements (highly recommended in a virtual environnement)
