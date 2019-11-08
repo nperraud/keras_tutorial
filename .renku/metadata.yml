@@ -1,0 +1,34 @@
+'@context':
+  _id: '@id'
+  created: schema:dateCreated
+  creator:
+    '@id': schema:creator
+    '@type': schema:Person
+  name: schema:name
+  prov: http://www.w3.org/ns/prov#
+  schema: http://schema.org/
+  updated: schema:dateUpdated
+  version: schema:schemaVersion
+'@type':
+- prov:Location
+- schema:Project
+_id: https://github.com/projects/nperraud/keras_tutorial
+created: '2019-11-08T15:12:12.699168+00:00'
+creator:
+  '@context':
+    _id: '@id'
+    email: schema:email
+    label: rdfs:label
+    name: schema:name
+    prov: http://www.w3.org/ns/prov#
+    schema: http://schema.org/
+  '@type':
+  - prov:Person
+  - schema:Person
+  _id: mailto:nperraud@users.noreply.github.com
+  email: nperraud@users.noreply.github.com
+  label: Nathanael Perraudin
+  name: Nathanael Perraudin
+name: keras_tutorial
+updated: '2019-11-08T15:12:12.702919+00:00'
+version: '2'
