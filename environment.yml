@@ -1,0 +1,7 @@
+name: "keras_tutorial"
+channels:
+  - defaults
+dependencies:
+  - jupyter
+  - jupyterlab
+prefix: "/opt/conda"
