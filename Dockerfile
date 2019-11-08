@@ -108,7 +108,7 @@ USER $NB_USER
 # COPY src /code/src
 
 # install the python dependencies
-COPY requirements-renku.txt environment.yml /tmp/
+COPY requirements.txt environment.yml /tmp/
 RUN conda env update -q -f /tmp/environment.yml && \
     /opt/conda/bin/pip install -r /tmp/requirements.txt && \
     conda clean -y --all && \
