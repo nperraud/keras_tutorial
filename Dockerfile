@@ -99,7 +99,9 @@ RUN /opt/conda/bin/pip install tensorflow-gpu==1.14
 # RUN cd ../..
 ##### End of installation of NVTOP
 
-
+# Tensorboard jupyter(lab) extension 
+RUN jupyter labextension install jupyterlab_tensorboard && \
+    pip install jupyter-tensorboard==0.1.10
 
 USER $NB_USER
 
